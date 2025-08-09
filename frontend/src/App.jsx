@@ -38,7 +38,7 @@ function App() {
         <div className="app-container">
             <div className="info-container">
                 <h1>Clima en {ciudad}</h1>
-                <p>Temperaturaa: {clima.main?.temp} °C</p>
+                <p>Temperatura: {clima.main?.temp} °C</p>
                 <p>Condiciones: {clima.weather?.[0]?.description}</p>
                 <input 
                     type="text" 
